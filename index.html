@@ -1,7 +1,37 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+	<head>
+		<title>bs-layer</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+		<link href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css" rel="stylesheet">
+		<link href="https://raw.githubusercontent.com/laughin1/bootstrap-player/master/css/bootstrap-player.css" rel="stylesheet">
+	</head>
+	<body>
+		<section class="container">
+			<h4> Music Control </h4>
+			<div class="span5">
+
+				<div class="span5">
+					<div class="undefined well container-fluid playa">
+						<input id="searchMusic" class="span3" type="text" placeholder="Select Song" title="Choose song to load.">
+						<button class="btn btn-default load">Load Song</button>
+					</div>
+				</div>
+				<div id="player_control_container" class="span5">
+					<audio controls
+						data-info-title="Come, take a trip in my air-ship"
+						data-info-artist="b"
+						<source src="http://www.lost-letters.com/wp-content/uploads/2013/02/cusb-cyl2985d.ogg" type="audio/ogg" />
+						<source src="http://www.lost-letters.com/wp-content/uploads/2013/02/cusb-cyl2985d.mp3" type="audio/mpeg" />
+						<a href="http://www.lost-letters.com/wp-content/uploads/2013/02/cusb-cyl2985d.mp3">cusb_cyl2985d</a>
+					</audio>
+				</div>
+			</div>
+		</section>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/js/bootstrap.min.js"></script>
+		<script src="https://raw.githubusercontent.com/fryn/html5slider/gh-pages/html5slider.js"></script>
+		<script src="https://github.com/laughin1/bootstrap-player/blob/master/js/bootstrap-player.js"></script>
+	</body>
 </html>
